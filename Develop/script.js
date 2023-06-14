@@ -19,16 +19,16 @@ function writePassword() {
   var characterList = "";
 
   if (addlowerCase) {
-    characterList += ['a','b','c','d','d','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
+    characterList += ['abcdefghijklmnopqrstuvwxyz'];
   }
   if (addupperCase) {
-    characterList += ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
+    characterList += ['ABCDEFGHIJKLMNOPQRSTUVWXYZ'];
   }
   if (addnumber) {
-    characterList += ['1','2','3','4','5','6','7','8','9','0'];
+    characterList += ['1234567890'];
   }
   if (addspecialChar) {
-    characterList += ['!','"','#','$','%','&','()','*','+',',','-','.','/',':',';','<','=','>','?','@','[','\',','^','_','`','{','|','}','~',']'];
+    characterList += ['!"#$%&()*+,-./:;<=>?@[\]^_`{|}~'];
   }
   
   var password = generatePassword(length, characterList); 
