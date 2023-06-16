@@ -16,3 +16,4 @@ Please refer to the license in the repo.
 
 
 ## Deployment URL
+Click here to visit directly: https://rvanvlietii.github.io/Random-Password-Generator/
