@@ -1,6 +1,6 @@
 # Random-Password-Generator
 
-## DESCRIPTION
+## Description
 This random password generator app is a user friendly app that utilizes prompts to identify what you would like in a new password. 4 simple prompts allow you to quickly decide how many characters you desire and if you desire lowercase letters, uppercase letters, numbers and special characters as part of the randomly generated password. Once you have completed the prompts, a new password is displayed in the box above the "Generate Password" button that you can copy and paste or save for future use. Enjoy!
 
 ## Credit
