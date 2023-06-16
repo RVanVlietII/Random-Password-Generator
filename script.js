@@ -3,8 +3,6 @@
 var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
-
-
 function writePassword() {
   var length = parseInt(prompt("Type a number between 8 and 128"));
   if (isNaN(length) || length < 8 || length > 128){
